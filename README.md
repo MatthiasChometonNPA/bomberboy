@@ -1,2 +1,2 @@
-# bomberboy
+# bomberman
 just a bomberboy game
