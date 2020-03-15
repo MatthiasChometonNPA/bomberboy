@@ -30,9 +30,7 @@ public class Move : MonoBehaviour
         {
             if (Input.GetKey(up))
             {
-                Debug.Log("anim");
                 Anim.SetBool("running", true);
-                Debug.Log("translation");
                 transform.Translate(translation * Time.deltaTime);
             }
             if (Input.GetKey(down))

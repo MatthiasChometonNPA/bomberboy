@@ -8,7 +8,6 @@ public class ChangeScene : MonoBehaviour
 
     public void LoadLevel()
     {
-        Debug.Log(LevelToLoad);
         SceneManager.LoadScene(LevelToLoad);
     }
 }

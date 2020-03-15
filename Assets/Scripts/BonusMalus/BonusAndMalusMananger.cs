@@ -5,7 +5,7 @@ using UnityEngine;
 public class BonusAndMalusMananger : MonoBehaviour
 {
     private GameObject speed;
-    public GameObject Speed { get => speed; set => speed = value; }
+    public GameObject Speed;
 
     public Bonus[] bonus;
 
