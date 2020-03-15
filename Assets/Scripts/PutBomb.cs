@@ -42,7 +42,7 @@ public class PutBomb : MonoBehaviour
             StartCoroutine(waitALittle(Anim.GetCurrentAnimatorStateInfo(0).length));
             Rigidbody instance;
             instance = Instantiate(Bombe, new Vector3(Mathf.RoundToInt(origine.position.x),
-            Bombe.transform.position.y, Mathf.RoundToInt(origine.position.z)),
+            Bombe.transform.position.y-0.5f, Mathf.RoundToInt(origine.position.z)),
             Bombe.transform.rotation) as Rigidbody;
         }
     }

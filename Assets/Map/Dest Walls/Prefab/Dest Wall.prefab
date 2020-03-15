@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6887361270546676790}
   - component: {fileID: 54250766713019904}
   - component: {fileID: 114997800745920144}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dest Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1132274869587689061}
   - component: {fileID: 1132274869587689058}
   - component: {fileID: 54927853208484100}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Border Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
